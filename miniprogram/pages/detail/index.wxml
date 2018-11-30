@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="detail">
+    <image style="width: 100%; background-color: #eeeeee;"  src="{{good.img}}"></image>
+    <van-panel title="{{good.name}}" desc="{{good.intro}}" status="￥{{good.price}}" use-footer-slot>
+    <view slot="footer">
+      <van-button size="small" class="intro">简介:{{good.intro}} </van-button>
+      <van-button size="small" class="intro">剩余:{{good.stock}}</van-button>
+    </view>
+    </van-panel>
+  </view>
+  <view>
+    <van-goods-action>
+      <van-goods-action-icon icon="chat" text="客服" bind:click="onClickIcon" />
+      <van-goods-action-icon icon="cart" text="购物车" bind:click="onClickToCar" />
+      <van-goods-action-button text="加入购物车" type="warning" bind:click="onShowPay" />
+      <van-goods-action-button text="立即购买" bind:click="onShowPay" />
+    </van-goods-action>
+  </view>
+  <!--弹出层-->
+  <van-popup show="{{show}}" bind:close="onClose" custom-class="pay">
+    <view>
+      <view class="buy">价格: ￥{{good.price}}</view>
+      <view class="buy">库存: {{good.stock}}</view>
+      <view class="buy buyCount"><view class="intro">购买数量: </view><van-stepper value="{{ carData.count }}" bind:change="countChange" /></view>
+    </view>
+    <van-goods-action>
+      <van-goods-action-button
+        text="加入购物车"
+        type="warning"
+        bind:click="addCar"
+      />
+      <van-goods-action-button
+        text="立即购买"
+        bind:click="toPay"
+      />
+    </van-goods-action>
+  </van-popup>
+</view>

@@ -1,0 +1,13 @@
+<view>
+    <scroll-view scroll-Y="true" scroll-X="false">
+        <view class="wuge" wx:if="{{allGoods == '' || allGoods.length == 0}}">没有任何商品</view>
+        <view wx:for="{{allGoods}}" wx:key="item.product_id.id" class="list">
+            <van-card num="{{item.count}}" tag="订单" price="{{item.product_id.price}}" desc="描述信息" title="{{item.product_id.name}}" thumb="{{ item.product_id.img }}">
+                <view slot="footer">
+                    <van-button size="mini" id="{{item.id}}" bind:tap="delete">删除</van-button>
+                </view>
+            </van-card>
+        </view>
+    </scroll-view>
+    <van-submit-bar price="{{ sumPrice }}" button-text="去支付" bind:submit="onSubmit"/>
+</view>

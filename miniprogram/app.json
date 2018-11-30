@@ -1,0 +1,43 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/shopCar/index",
+    "pages/user/index",
+    "pages/address/index",
+    "pages/address/addto/index",
+    "pages/order/index",
+    "pages/orderCenter/index",
+    "pages/detail/index",
+    "pages/pay/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "商品",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#F5B223",
+    "color": "#9A9A9A",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "商品",
+      "iconPath": "images/dianpu.png",
+      "selectedIconPath": "images/dianpu_s.png"
+    },
+    {
+      "pagePath": "pages/shopCar/index",
+      "text": "购物车",
+      "iconPath": "images/gouwuche.png",
+      "selectedIconPath": "images/gouwuche_s.png"
+    },
+    {
+      "pagePath": "pages/user/index",
+      "text": "我",
+       "iconPath": "images/user.png",
+      "selectedIconPath": "images/user_s.png"
+    }]
+  }
+}

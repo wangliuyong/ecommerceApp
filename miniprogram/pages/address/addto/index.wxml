@@ -1,0 +1,15 @@
+<!-- index.wxml -->
+<view class="container">
+  <view>
+    <van-cell-group>
+      <van-field id="1" bind:input="changeInput" value="{{user.contact}}" label="用户名" left-icon="contact" border="{{ true }}" placeholder="用户名" />
+      <van-field id="2" bind:input="changeInput" value="{{user.telephone}}" label="手机号码" left-icon="phone" border="{{ true }}" type="number" maxlength="11" placeholder="请输入11位手机号码" />
+      <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+        <van-field id="3" bind:tap="clickArea" value="{{addressData.province+addressData.city+addressData.area}}" class="picker" catch:click-icon="clickLocation" disabled label="选择地区" left-icon="location" icon="location" border="{{ true }}" type="text" placeholder="地址信息" />
+      </picker>
+      <van-field id="4" bind:input="changeInput" value="{{user.area_detail}}" label="详细地址" left-icon="info-o" border="{{ true }}" type="textarea" placeholder="地址信息" />
+      <van-field id="5" bind:input="changeInput" value="{{user.postcode}}" label="邮政编码" left-icon="free-postage" border="{{ true }}" type="number" placeholder="邮政编码" />
+    </van-cell-group>
+    <button class="save" bindtap="save">保存</button>
+  </view>
+</view>

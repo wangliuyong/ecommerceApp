@@ -1,0 +1,24 @@
+/**index.wxss**/
+
+view.pay {
+  bottom: 0;
+  top:75%;
+  width: 100%;
+}
+
+
+.intro{
+  font-size:12px;
+}
+
+.buy {
+  font-size:14px;
+  padding:  5px 1px;
+}
+
+
+.buyCount{
+  display: flex;
+  align-items: center;
+}
+

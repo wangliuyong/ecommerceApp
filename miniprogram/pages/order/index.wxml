@@ -1,0 +1,35 @@
+<!-- index.wxml -->
+<view class="container">
+  
+  <van-cell-group bind:tap="toAdd">
+  <van-cell title="{{defaultAddress.username+defaultAddress.telephone+defaultAddress.address+defaultAddress.province+defaultAddress.city+defaultAddress.area+defaultAddress.address}}" icon="location" is-link />
+  </van-cell-group>
+  <view wx:if="{{option.id}}">
+      <van-card num="{{order.selectCount}}" price="{{order.good.price}}" title="{{order.good.name}}" thumb="{{ order.good.img }}">
+      <view slot="footer">总计1件商品;合计:￥{{order.good.price*order.selectCount}}</view>
+      </van-card>   
+  </view>
+
+  <view wx:if="{{option.shopCar}}">
+      <view wx:for="{{shopCar}}" wx:key="index">
+        <van-card num="{{item.count}}" price="{{(item.product_id.price)}}" title="{{item.product_id.name}}" thumb="{{ item.product_id.img }}">
+        <view slot="footer">合计:￥{{item.count*item.product_id.price}}</view>
+        </van-card>
+    </view>
+    </view>
+
+  <view wx:if="{{option.orderId}}">
+    <view wx:for="{{orderArr}}" wx:key="index">
+      <van-card num="{{item.count}}" price="{{(item.product_id.price)}}" title="{{item.product_id.name}}" thumb="{{ item.product_id.img }}">
+      <view slot="footer">总计{{item.count}}件商品;合计:￥{{item.orderPay}}</view>
+      </van-card>
+    </view>
+  </view>
+
+
+   <van-submit-bar price="{{ sumPrice }}" button-text="提交订单" bind:submit="onSubmit" tip="{{ true }}">
+    <view slot="tip">
+      <text>总计{{order.selectCount}}件商品</text>
+    </view>
+  </van-submit-bar>
+</view>

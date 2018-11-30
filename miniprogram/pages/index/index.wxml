@@ -1,0 +1,20 @@
+<!-- index.wxml -->
+<view class="container">
+  <view>
+    <van-search value="{{ search }}" placeholder="请输入搜索关键词" show-action bind:search="onSearch" bind:cancel="onCancel" />
+  </view>
+  <view class="goodWrap">
+    <van-tabs active="{{ active }}" bind:click="clickTab">
+      <block wx:for="{{allGoods}}" wx:key="index">
+        <van-tab title="{{item.category}}">
+          <van-card class="card" wx:for="{{item.goods}}" wx:key="{{index}}"  tag="热门" price="{{item.price}}/斤" desc="{{item.intro}}" title="{{item.name}}" thumb="{{item.img}}"  bindtap="clickGood" id="{{item.id}}">
+            <view slot="footer">
+              <van-button size="mini">库存{{item.stock}}</van-button>
+            </view>
+          </van-card>
+        </van-tab>
+      </block>
+    </van-tabs>
+  </view>
+  <view></view>
+</view>

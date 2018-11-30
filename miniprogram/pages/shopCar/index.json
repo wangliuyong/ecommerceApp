@@ -1,0 +1,9 @@
+{
+    "enablePullDownRefresh":false,
+    "navigationBarTitleText": "购物车",
+    "usingComponents": {
+        "van-stepper": "../../dist/stepper/index",
+        "van-card": "../../dist/card/index",
+        "van-submit-bar": "../../dist/submit-bar/index"
+      }
+}
