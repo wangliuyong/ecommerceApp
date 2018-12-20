@@ -1,5 +1,5 @@
 //index.js
-import data from '../../data'
+
 import shopCar from '../../common/shopCar' 
 import pay from '../../common/pay'
 
@@ -14,7 +14,6 @@ Page({
     allGood:{},
     good_id:"",
     allGoods:[],
-    sumPrice:"",
     shopCarCount:''
   },
   onLoad: function(option) {
@@ -26,7 +25,7 @@ Page({
   delete(e){
     console.log(e.currentTarget.id)
     deleteShopCar({id:e.currentTarget.id}).then((e)=>{
-      console.log(e)
+      console.log('deleteShopCar',e)
       this.getShopCar()
     })
     
@@ -52,7 +51,7 @@ Page({
         shopCarCount+=item.count
       })
 
-      console.log(sum)
+      console.log(sum);
       this.setData({
         sumPrice:sum*100,
         shopCarCount
@@ -60,6 +59,8 @@ Page({
 
       console.log("shopCarCount",shopCarCount)
     })
+
+
 
   },
   createOrder(data){

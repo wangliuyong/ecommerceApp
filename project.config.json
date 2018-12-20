@@ -7,9 +7,10 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"nodeModules": false
+		"nodeModules": true,
+		"uglifyFileName": true
 	},
-	"appid": "wxc4831335ae194243",
+	"appid": "wxb33de96952971de8",
 	"projectname": "%E7%94%B5%E5%95%86%E5%B0%8F%E7%A8%8B%E5%BA%8F",
 	"libVersion": "2.3.2",
 	"condition": {

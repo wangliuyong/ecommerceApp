@@ -1,9 +1,9 @@
 
-scroll-view{
-  margin-bottom: 50px;
+scroll-view {
+  margin-bottom : 50px;
 }
 .list{
-  border-top:1px solid #eee;
+  border-top : 1 px  solid #eee;
   margin-top:10px;
 }
 .list .item {
@@ -137,4 +137,8 @@ scroll-view{
   font-size: 18px;
   color:#666;
   margin-top: 50rpx;
+}
+
+.delete{
+color:blue;
 }

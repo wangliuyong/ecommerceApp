@@ -67,7 +67,7 @@ Page({
     let that=this
     //发送请求存储的购物车
     //发送的数据有
-    let updatedAt=new Date().toLocaleDateString().split("/").join("-")+' '+new Date().toLocaleTimeString().slice(2)
+    let updatedAt=new Date().toLocaleDateString()+' '+new Date().toLocaleTimeString().slice(2)
     this.setData({
       "carData.updatedAt":updatedAt,
       "carData.id":new Date().getTime()

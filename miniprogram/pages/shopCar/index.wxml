@@ -4,7 +4,7 @@
         <view wx:for="{{allGoods}}" wx:key="item.product_id.id" class="list">
             <van-card num="{{item.count}}" tag="订单" price="{{item.product_id.price}}" desc="描述信息" title="{{item.product_id.name}}" thumb="{{ item.product_id.img }}">
                 <view slot="footer">
-                    <van-button size="mini" id="{{item.id}}" bind:tap="delete">删除</van-button>
+                    <van-button size="mini" id="{{item.id}}" bind:tap="delete"><span class="delete">删除</span></van-button>
                 </view>
             </van-card>
         </view>

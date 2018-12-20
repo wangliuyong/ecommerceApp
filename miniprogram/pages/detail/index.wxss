@@ -13,12 +13,18 @@ view.pay {
 
 .buy {
   font-size:14px;
-  padding:  5px 1px;
+  padding:  5px 5px;
 }
 
 
 .buyCount{
   display: flex;
   align-items: center;
+}
+
+.data-wrap{
+  padding:10px;
+  padding-bottom:60px;
+
 }
 

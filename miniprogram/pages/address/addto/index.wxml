@@ -8,7 +8,6 @@
         <van-field id="3" bind:tap="clickArea" value="{{addressData.province+addressData.city+addressData.area}}" class="picker" catch:click-icon="clickLocation" disabled label="选择地区" left-icon="location" icon="location" border="{{ true }}" type="text" placeholder="地址信息" />
       </picker>
       <van-field id="4" bind:input="changeInput" value="{{user.area_detail}}" label="详细地址" left-icon="info-o" border="{{ true }}" type="textarea" placeholder="地址信息" />
-      <van-field id="5" bind:input="changeInput" value="{{user.postcode}}" label="邮政编码" left-icon="free-postage" border="{{ true }}" type="number" placeholder="邮政编码" />
     </van-cell-group>
     <button class="save" bindtap="save">保存</button>
   </view>

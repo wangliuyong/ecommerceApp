@@ -20,6 +20,12 @@ Page({
   onLoad: function () {
     let that =this
     // 获取用户信息
+
+    if (!wx.cloud) {
+      console.log('云函数不存在')
+    }
+
+    // 获取用户信息
     wx.getSetting({
       success: res => {
         if (res.authSetting['scope.userInfo']) {

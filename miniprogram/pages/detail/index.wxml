@@ -19,7 +19,7 @@
   </view>
   <!--弹出层-->
   <van-popup show="{{show}}" bind:close="onClose" custom-class="pay">
-    <view>
+    <view class="data-wrap">
       <view class="buy">价格: ￥{{good.price}}</view>
       <view class="buy">库存: {{good.stock}}</view>
       <view class="buy buyCount"><view class="intro">购买数量: </view><van-stepper value="{{ carData.count }}" bind:change="countChange" /></view>

@@ -16,7 +16,6 @@ Page({
       "city": "",
       "default":0,
       "id": "",
-      "postcode": "",
       "province": "",
       "telephone": "",
       "updatedAt": "",
@@ -40,7 +39,6 @@ Page({
     if(index=='1'){this.setData({"addressData.username":e.detail})}
     if(index=='2'){this.setData({"addressData.telephone":e.detail})}
     if(index=='4'){this.setData({"addressData.address":e.detail})}
-    if(index=='5'){this.setData({"addressData.postcode":e.detail})}
     console.log(this.data)
   },
   clickArea(){
@@ -59,7 +57,7 @@ Page({
     this.setData({
       "addressData.default":0,
       "addressData.id":new Date().getTime(),
-      "addressData.updatedAt":new Date().toLocaleDateString().split("/").join("-")+' '+new Date().toLocaleTimeString().slice(2),
+      "addressData.updatedAt":new Date().toLocaleDateString()+' '+new Date().toLocaleTimeString().slice(2),
       "addressData.user_id":app.globalData.openid,
     })
 
@@ -76,8 +74,11 @@ Page({
     }
 
     console.log('this.data.addressData',this.data.addressData)
+
     if(save){
+
       //提交数据,要修改
+
       createUserAddress(this.data.addressData).then((e)=>{
         console.log('createAddress',e)
         wx.showToast({
@@ -86,8 +87,6 @@ Page({
           duration: 1000
         })
       })
-
-      
     }else{
       wx.showToast({
         title: '数据为空或格式不正确',
