@@ -8,12 +8,15 @@
 
     <radio-group class="radio-group" catchchange="radioChange">
         <view wx:for="{{allAddress}}" wx:key="{{item.id}}" class="item">
-                <radio  value="{{item.id}}" checked="{{item.default==1}}"/>
-                <view class="right" catchtap="addto" data-id="{{item.id}}">
-                    <text class="h1">{{item.username}}</text>
-                    <text class="p">{{item.telephone}}</text>
-                    <text class="p">{{item.province+item.city+item.area+item.address}}</text>
+
+            <view class="add-list-wrap">
+                <view class="add-radio"><radio  value="{{item.id}}" checked="{{item.default==1}}"/></view>
+                <view class="add-text">{{item.username+item.telephone+item.province+item.city+item.area+item.address}}</view>
+                <view class="add-modify-wrap">
+                    <view class="add-modify" data-id="{{item.id}}" bindtap='toModify'></view>
+                    <view class="add-delete" data-id="{{item.id}}" bindtap='toDelete'></view>
                 </view>
+            </view>
         </view>
     </radio-group>
 </view>

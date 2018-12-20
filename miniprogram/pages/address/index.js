@@ -1,9 +1,7 @@
-
 //index.js
-//获取应用实例
 import address from '../../common/address'
 
-let {userAddressByProps,updateUserAddress}=address
+let {userAddressByProps,updateUserAddress,deleteuserAddress}=address
 var app = getApp()
 
 Page({
@@ -23,6 +21,27 @@ Page({
         url: '/pages/address/addto/index'
       })
   },
+  deleteAddress(data){
+    deleteuserAddress(data).then((e)=>{
+      this.getAddress({"user_id":app.globalData.openid})
+      console.log(e)
+    })
+  },
+
+
+
+  toModify(e){
+    console.log(e.currentTarget.dataset.id)
+    wx.navigateTo({
+      url: '/pages/address/addto/index?id='+e.currentTarget.dataset.id
+    })
+  },
+  toDelete(e){
+    console.log(e.currentTarget.dataset.id)
+    this.deleteAddress({id:e.currentTarget.dataset.id})
+  },
+
+
   radioChange(e){
     console.log(e.detail.value)
     let id=e.detail.value

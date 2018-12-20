@@ -8,6 +8,8 @@ var gql = GraphQL({
   url: config.HTTP_DATA_URL
 },true);
 
+
+
 let createUserAddress=function(data){
     return gql.mutate({
         mutation:`mutation createuserAddress($address: String, $updatedAt: String, $telephone: String, $default: Int, $city: String, $username: String, $postcode: String, $createdAt: String, $deletedAt: String, $id: ID!, $user_id: ID, $area: String, $province: String) {
@@ -149,11 +151,26 @@ let updateUserAddress=function(data){
       })
 }
 
+let deleteuserAddress=function(data){
+    return gql.mutate({
+        mutation:`mutation deleteuserAddress($address: String, $updatedAt: String, $telephone: String, $default: Int, $city: String, $username: String, $postcode: String, $createdAt: String, $deletedAt: String, $id: ID, $user_id: ID, $area: String, $province: String) {
+            deleteuserAddress: delete_userAddress(address: $address updatedAt: $updatedAt telephone: $telephone
+                default: $default city: $city username: $username postcode: $postcode createdAt: $createdAt deletedAt: $deletedAt id: $id user_id: $user_id area: $area province: $province)
+        }`,
+        variables:data 
+      }).then((e)=>{
+        return e
+      }).catch((e)=>{
+          return e
+      })
+}
+
 
 
 export default {
     createUserAddress,
     getUserAddressByUser_id,
     userAddressByProps,
-    updateUserAddress
+    updateUserAddress,
+    deleteuserAddress
 }

@@ -47,4 +47,47 @@
   margin-bottom:5px;
   color:#666;
   font-size: 14px;
+  text-align:left;
 }
+.add-list-wrap{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.add-radio{
+  flex-basis: 31px;
+  height:31px;
+}
+
+.add-text{
+  padding: 2px 0;
+  flex-basis: 280px;
+}
+
+.add-modify-wrap{
+  flex-basis: 20px;
+}
+
+.add-modify{
+  width: 38rpx;
+  height: 38rpx;
+  border: 1px solid #ccc;
+  background: url('https://ece-img-1254337200.cos.ap-chengdu.myqcloud.com/edit.svg')  ;
+  margin: 2px 0;
+}
+
+.add-delete{
+  width: 38rpx;
+  height: 38rpx;
+  border: 1px solid #ccc;
+  background: url('https://ece-img-1254337200.cos.ap-chengdu.myqcloud.com/delete.svg');
+  margin: 2px 0;
+}
+
+view.item radio{
+  padding: 5rpx 15rpx !important;
+}
+
+
+

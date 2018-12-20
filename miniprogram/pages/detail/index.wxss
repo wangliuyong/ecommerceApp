@@ -11,9 +11,13 @@ view.pay {
   font-size:12px;
 }
 
-.buy {
+.buy ,.count{
   font-size:14px;
   padding:  5px 5px;
+}
+
+.count{
+  margin-left:-6px;
 }
 
 
@@ -23,8 +27,10 @@ view.pay {
 }
 
 .data-wrap{
-  padding:10px;
-  padding-bottom:60px;
+  position:relative;
+  left:10px;
+  bottom:5px;
+
 
 }
 

@@ -14,6 +14,7 @@ App({
       name: 'login',
       data: {}
     }).then((res) => {
+      console.log('getopenid',res)
       this.globalData.openid = res.result.openid
     })
   },

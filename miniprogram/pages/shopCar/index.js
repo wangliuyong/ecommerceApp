@@ -23,10 +23,11 @@ Page({
     this.getShopCar()
   },
   delete(e){
+    let that=this;
     console.log(e.currentTarget.id)
     deleteShopCar({id:e.currentTarget.id}).then((e)=>{
       console.log('deleteShopCar',e)
-      this.getShopCar()
+      that.getShopCar()
     })
     
   },
@@ -38,7 +39,7 @@ Page({
 
   //封装的函数
   getShopCar(){
-
+    console.log('getshopcar')
     getAllShopCar({"user_id":app.globalData.openid}).then((e)=>{
       console.log("getAllShopCar",e.data.userCartbyprops)
       this.setData({

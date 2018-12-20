@@ -20,13 +20,16 @@ Page({
       "telephone": "",
       "updatedAt": "",
       "user_id": "",
-      "username": ""
+      "username":''
     },
     region: ['安徽省', '合肥市',''],
+    option:{}
   },
   onLoad: function(option) {
     console.log(option)
+    this.setData({option})
 
+    
   },
   onShow(){
     

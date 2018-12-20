@@ -14,7 +14,7 @@ Page({
     carData:{
       count:1,
       id:"",
-      "createdAt": "2018-12-31",
+      createdAt: "",
       product_id:"",
       updatedAt:"",
       user_id:""
@@ -69,10 +69,10 @@ Page({
     //发送的数据有
     let updatedAt=new Date().toLocaleDateString()+' '+new Date().toLocaleTimeString().slice(2)
     this.setData({
-      "carData.updatedAt":updatedAt,
+      "carData.createdAt":updatedAt,
       "carData.id":new Date().getTime()
     })
-    console.log("this.data.carData",this.data.carData)
+    //console.log("this.data.carData-----",this.data.carData)
     createShopCar(this.data.carData).then((res)=>{
       console.log(res)
       wx.showToast({
