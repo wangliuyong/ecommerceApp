@@ -181,7 +181,7 @@ query productbyprops($category: String, $updatedAt: String, $name: String, $crea
 ##### 1.原理
 GraphQl请求跟Restfel api的请求一样，都是一个http请求。只是GraphQl的请求入口有且只有一个，一般是graphql服务端的入口/graphql ，请求方法是post。
 
-所以GraphQl请求无非就是post方法的http://xxxx.com/graphql的请求后台再传这graphql的参数来使graphql服务端根据参数不同来执行不同的方法，从而实现不同的接口效果，返回想要请求得到的数据。
+所以GraphQl请求无非就是post方法到`http://xxxx.com/graphql`的请求，并传一些参数来使graphql服务端根据参数不同来执行不同的方法，从而实现不同的接口效果，返回想要请求得到的数据。
 
 ##### 2.发送请求的方法
 知道了原理，发送请求就变得简单起来。你可以使用小程序自带的原生的请求api发送请求，也可以使用别人封装的一个微信小程序发送graphql请求的GraphQL框架。链接地址：`https://github.com/Authing/wxapp-graphql`  推荐使用框架，简单方便快捷。
