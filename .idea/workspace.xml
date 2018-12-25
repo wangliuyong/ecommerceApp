@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5c68dd9-ae27-49e6-bd16-fc3c3cf988d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/configs.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/configs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/address/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/address/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/address/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/address/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/address/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/address/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/address/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/address/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/detail/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/detail/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/detail/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/detail/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/detail/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/shopCar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/shopCar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,16 +19,28 @@
         <entry file="file://$PROJECT_DIR$/miniprogram/pages/address/index.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram/pages/address/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/miniprogram/pages/address/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="3432">
+                <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -46,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miniprogram/pages/address/index.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+            <state relative-caret-position="1104">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -80,6 +82,7 @@
         <option value="$PROJECT_DIR$/miniprogram/pages/address/index.json" />
         <option value="$PROJECT_DIR$/miniprogram/pages/address/index.wxss" />
         <option value="$PROJECT_DIR$/miniprogram/pages/address/index.wxml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -94,75 +97,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="address" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="shopCar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopApp" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommerceApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerceApp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web/online" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -196,11 +147,12 @@
       <workItem from="1545267989782" duration="23000" />
       <workItem from="1545268075409" duration="1365000" />
       <workItem from="1545269912417" duration="14490000" />
+      <workItem from="1545703425826" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26039000" />
+    <option name="totallyTimeSpent" value="26094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
@@ -376,21 +328,31 @@
     <entry file="file://$PROJECT_DIR$/miniprogram/pages/address/index.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/pages/address/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        <state relative-caret-position="1104">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/pages/address/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3432">
+            <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
