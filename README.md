@@ -186,7 +186,7 @@ GraphQl请求跟Restfel api的请求一样，都是一个http请求。只是Grap
 ##### 2.发送请求的方法
 知道了原理，发送请求就变得简单起来。你可以使用小程序自带的原生的请求api发送请求，也可以使用别人封装的一个微信小程序发送graphql请求的GraphQL框架。链接地址：`https://github.com/Authing/wxapp-graphql`  推荐使用框架，简单方便快捷。
 
-## 结束
+### 结束
 
 
 

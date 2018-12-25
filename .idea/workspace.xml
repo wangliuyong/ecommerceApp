@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="493">
-                <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+              <first_editor relative-caret-position="262">
+                <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
               </first_editor>
               <second_editor />
             </state>
@@ -147,12 +147,12 @@
       <workItem from="1545267989782" duration="23000" />
       <workItem from="1545268075409" duration="1365000" />
       <workItem from="1545269912417" duration="14490000" />
-      <workItem from="1545703425826" duration="452000" />
+      <workItem from="1545703425826" duration="1104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26491000" />
+    <option name="totallyTimeSpent" value="27143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
@@ -171,7 +171,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1682641" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5079872" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Alipay DevTools" order="11" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -349,8 +349,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="493">
-            <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+          <first_editor relative-caret-position="262">
+            <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
           </first_editor>
           <second_editor />
         </state>
