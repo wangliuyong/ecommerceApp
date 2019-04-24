@@ -1,6 +1,20 @@
 # 电商小程序
-使用技术栈:微信小程序+graphql+mongoDB
+使用技术栈:微信小程序+Iview-UI+graphql+mongoDB
 使用者只需要设计前端页面，后端自动生成，大大简化了后端操作。
+
+## 扫码预览
+
+<div align="center">
+    <img src="./static/img/appCode.png" width="190" >
+</div>
+
+## 效果预览
+<div align="center">
+    <img src="./static/img/1.png" width="190" >
+    <img src="./static/img/2.png" width="190" >
+    <img src="./static/img/3.png" width="190" >
+</div>
+
 ## 参考文档
 
 
