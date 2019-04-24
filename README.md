@@ -10,9 +10,9 @@
 
 ## 效果预览
 <div align="center">
-    <img src="./static/img/1.png" width="190" >
-    <img src="./static/img/2.png" width="190" >
-    <img src="./static/img/3.png" width="190" >
+    <img src="./static/img/index.png" width="190" >
+    <img src="./static/img/car.png" width="190" >
+    <img src="./static/img/my.png" width="190" >
 </div>
 
 ## 参考文档
